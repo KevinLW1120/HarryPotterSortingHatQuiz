@@ -9,6 +9,9 @@ int main() {
 
     int answer1, answer2, answer3, answer4;
 
+    int max = 0;
+    std::string house;
+
     std::cout << "Sorting Hat Quiz!\n";
 
     //Question 1
