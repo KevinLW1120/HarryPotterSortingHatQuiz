@@ -34,7 +34,7 @@ int main() {
     }
 
     //Question 2
-    std::cout << "Dawm or Dusk?\n";
+    std::cout << "\nDawm or Dusk?\n";
     std::cout << "1) Dawn\n";
     std::cout << "2) Dusk\n";
 
@@ -52,11 +52,13 @@ int main() {
     }
 
     //Question 3
-    std::cout<< "What kind of instument most pleases your ear?\n";
+    std::cout<< "\nWhat kind of instument most pleases your ear?\n";
     std::cout << "1) The violin\n";
     std::cout << "2) The trumpet\n";
     std::cout << "3) The piano\n";
     std::cout << "4) The drum\n";
+
+    std::cin >> answer3;
 
     //Question 3 if/else
     if (answer3 == 1) {
@@ -67,6 +69,26 @@ int main() {
         ravenclaw++;
     } else if (answer3 == 4) {
         gryffindor++;
+    } else {
+        std::cout << "invalid input\n";
+    }
+
+    //Question 4
+    std::cout << "\nWhich road tempts you most?\n";
+    std::cout << "1) The wide, sunny grassy lane\n";
+    std::cout << "1) The narrow, dark, lantern-lit alley\n";
+    std::cout << "1) The twisting, leaf-stream path through woods\n";
+    std::cout << "1) The cobbled street lined (ancient buildings)\n";
+
+    //Question 4 if/esle
+    if (answer4 == 1) {
+        hufflepuff++;
+    } else if (answer4 == 2) {
+        slytherin++;
+    } else if (answer4 == 3) {
+        gryffindor++;
+    } else if (answer4 == 4) {
+        ravenclaw++;
     } else {
         std::cout << "invalid input\n";
     }
