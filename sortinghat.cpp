@@ -19,4 +19,18 @@ int main() {
     std::cout << "4) The Bold\n";
 
     std::cin >> answer1;
+
+    if (answer1 == 1) {
+        hufflepuff++;
+    } else if (answer1 == 2) {
+        slytherin++;
+    }else if (answer1 == 3) { 
+        ravenclaw++;
+    } else if (answer1 == 4) {
+        gryffindor++;
+    } else {
+        std::cout << "Invalid Output.\n";
+    }
+
+    
 }
