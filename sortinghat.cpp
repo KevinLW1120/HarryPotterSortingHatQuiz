@@ -19,7 +19,7 @@ int main() {
     std::cout << "4) The Bold\n";
 
     std::cin >> answer1;
-    
+
     //Question 1 if/else
     if (answer1 == 1) {
         hufflepuff++;
@@ -33,5 +33,21 @@ int main() {
         std::cout << "Invalid Output.\n";
     }
 
-    
+    //Question 2
+    std::cout << "Dawm or Dusk?\n";
+    std::cout << "1) Dawn\n";
+    std::cout << "2) Dusk\n";
+
+    std::cin>> answer2;
+
+    //Question 2 if/else
+    if (answer2 == 1) {
+        gryffindor++;
+        ravenclaw++;
+    } else if (answer2 == 2) {
+        slytherin++;
+        hufflepuff++;
+    } else {
+        std::cout << "invalid input\n";
+    }
 }
