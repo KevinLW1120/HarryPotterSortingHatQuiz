@@ -17,7 +17,7 @@ int main() {
     std::cout << "===============\n\n";
 
     //Question 1
-    std::cout<< "Question 1 of 4\n\n";
+    std::cout<< "Question 1 of 4\n";
     std::cout << "\nWhen I'm dead, I want to people to remember me as: \n";
     std::cout << "1) The Good\n";
     std::cout << "2) The Great\n";
@@ -41,7 +41,7 @@ int main() {
     }
 
     //Question 2
-    std::cout<< "\nQuestion 2 of 4\n\n";
+    std::cout<< "\n\nQuestion 2 of 4\n";
     std::cout << "\nDawm or Dusk?\n";
     std::cout << "1) Dawn\n";
     std::cout << "2) Dusk\n";
@@ -61,7 +61,7 @@ int main() {
     }
 
     //Question 3
-    std::cout<< "\nQuestion 3 of 4\n\n";
+    std::cout<< "\n\nQuestion 3 of 4\n";
     std::cout<< "\nWhat kind of instument most pleases your ear?\n";
     std::cout << "1) The violin\n";
     std::cout << "2) The trumpet\n";
@@ -85,7 +85,7 @@ int main() {
     }
 
     //Question 4
-    std::cout<< "\nQuestion 4 of 4\n\n";
+    std::cout<< "\n\nQuestion 4 of 4\n";
     std::cout << "\nWhich road tempts you most?\n";
     std::cout << "1) The wide, sunny grassy lane\n";
     std::cout << "2) The narrow, dark, lantern-lit alley\n";
