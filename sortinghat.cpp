@@ -11,7 +11,7 @@ int main() {
 
     std::cout << "Sorting Hat Quiz!\n";
 
-    //Questions
+    //Question 1
     std::cout << "\nWhen I'm dead, I want to people to remember me as: \n";
     std::cout << "1) The Good\n";
     std::cout << "2) The Great\n";
@@ -19,7 +19,8 @@ int main() {
     std::cout << "4) The Bold\n";
 
     std::cin >> answer1;
-
+    
+    //Question 1 if/else
     if (answer1 == 1) {
         hufflepuff++;
     } else if (answer1 == 2) {
