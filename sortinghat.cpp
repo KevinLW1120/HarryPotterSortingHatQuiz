@@ -95,4 +95,25 @@ int main() {
     } else {
         std::cout << "invalid input\n";
     }
+
+    //Calculates which House has the most points.
+    if(gryffindor > max) {
+        max = gryffindor;
+        house = "Gryffindor";
+    }
+
+    if(hufflepuff > max) {
+        max = hufflepuff;
+        house = "Hufflepuff";
+    }
+
+    if(ravenclaw > max) {
+        max = ravenclaw;
+        house = "Ravenclaw";
+    }
+
+    if(slytherin > max) {
+        max = slytherin;
+        house = "Slytherin";
+    }
 }
