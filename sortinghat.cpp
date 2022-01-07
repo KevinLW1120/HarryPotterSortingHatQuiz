@@ -10,4 +10,13 @@ int main() {
     int answer1, answer2, answer3, answer4;
 
     std::cout << "Sorting Hat Quiz!\n";
+
+    //Questions
+    std::cout << "\nWhen I'm dead, I want to people to remember me as: \n";
+    std::cout << "1) The Good\n";
+    std::cout << "2) The Great\n";
+    std::cout << "3) The Wise\n";
+    std::cout << "4) The Bold\n";
+
+    std::cin >> answer1;
 }
