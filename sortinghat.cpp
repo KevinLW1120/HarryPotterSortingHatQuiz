@@ -8,4 +8,6 @@ int main() {
     int slytherin = 0;
 
     int answer1, answer2, answer3, answer4;
+
+    std::cout << "Sorting Hat Quiz!\n";
 }
